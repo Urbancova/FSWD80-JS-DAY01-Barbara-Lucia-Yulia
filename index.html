@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Internal JS Program</title>
+</head>
+<body>
+	
+
+<script type="text/javascript"> 
+	var name = "Martin";
+	var age = 25;
+
+
+	console.log("Hello from the Console")
+	document.write("Hello from the Browser. " + "<hr>");
+	document.write("Hi my name is " + name + " and I am " + age + " years old" + "<hr>");
+
+	var players_name = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
+
+
+	document.write("The most valuable player of the match is " + players_name [2]);
+
+	var cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
+
+	console.log(cars.sort());
+
+	var fruits = ["apple", "banana", "kiwi"];
+	fruits.push("orange");
+	console.log(fruits);
+
+	fruits.pop();
+	console.log(fruits);
+
+	var animals = ["monkey", "horse", "dog"];
+	console.log(animals.sort());
+	animals.unshift("cat");
+	console.log(animals[0]);
+	console.log(animals[1]);
+	console.log(animals[2]);
+	console.log(animals[3]);
+
+
+	var fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+	console.log(fruits2.substring(0, 5));
+	console.log(fruits2.substring(6, 14));
+	console.log(fruits2.substring(15, 19));
+	console.log(fruits2.substring(20, 26));
+	console.log(fruits2.substring(27, 31));
+	console.log(fruits2.substring(32, 37));
+	console.log(fruits2.substring(38, 44));
+	console.log(fruits2.substring(45, 50));
+
+
+	var a = 7;
+
+	var b = 14;
+
+	var c = "21";
+
+	var d = '36';
+
+	var e = 42;
+
+	var c = Number(c);
+
+
+
+	var sum = a + b + c + Number(d) + e;
+	console.log(sum);
+
+
+	var f = '1';
+
+	var g = 15;
+
+	var h = 8;
+
+	var i = "1";
+
+	var f = Number(f);
+	var i = Number(i);
+
+	var multi = f * g * h * i;
+
+
+	document.write(multi);
+
+
+
+	var divis = sum/multi;
+	
+	document.write("<br>");
+	document.write(divis);
+
+
+	var x = [ [1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 25, 7], [21, 4, 6, 17], [3, 5, 26, 3] ];
+	console.log(x [1][1]);
+	console.log(x [4][2]);
+	console.log(x [5][3]);
+	console.log(x [2][3]);
+	console.log(x [2][1]);
+
+
+
+	
+	
+
+</script>
+
+<!--<script src="javascript.js" type="text/javascript"></script>-->
+	
+</body>
+</html>
